@@ -3,14 +3,11 @@ input sentence = A catatonic cat can't categorize catheters without education.
 A catatonic(no) cat(yes) can't categorize(no) catheters(no) without education(no).
 count = 1. 
 
-check for a " " in input, if so return "one word please"
-this will make sure i'm not getting "fat cat" as a word
+split inputSentence at  {' ', ',', '.', ';', ':', '!', '?', '/', '@', '#', '$', '%', '^', '^', '&', '*', '(', ')', '-', '_', '=', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}
 
-check if "',', '.', ';', ':', '!', '?', '-', '_', comes after input  //don't need this can just split at that char too
-was going to check special char, but can just split at them, which will filter out catatonic ect. 
+check if any split off words in sentence.ToLower == input word
 
-check if any split off words in sentence.ToLower == word
-
+check if catatonic = word, it shouldn't
 
 
 Before coding, write plain English specs in a text file (or your README). Commit these before writing any code.
