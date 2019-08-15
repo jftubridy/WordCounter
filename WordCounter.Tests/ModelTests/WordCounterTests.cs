@@ -23,7 +23,14 @@ namespace WordCounter.Tests
         }
 
         [TestMethod]
-        public void TotalWord_NumOfWOrdInSentence_2()
+        public void TotalWord_NoneBecauseConnected_0()
+        {
+            RepeatCounter newCounter = new RepeatCounter("cat", "catcat");
+            int output = newCounter.WordNumber();
+            Assert.AreEqual(0, output);
+        }
+        [TestMethod]
+        public void TotalWord_MultipleInSentence_2()
         {
             RepeatCounter newCounter = new RepeatCounter("cat", "cat cat");
             int output = newCounter.WordNumber();
