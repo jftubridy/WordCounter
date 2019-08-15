@@ -32,9 +32,9 @@ namespace WordCounter.Tests
         [TestMethod]
         public void TotalWord_MultipleInSentence_2()
         {
-            RepeatCounter newCounter = new RepeatCounter("cat", "cat cat");
+            RepeatCounter newCounter = new RepeatCounter("cat", "Cat hat");
             int output = newCounter.WordNumber();
-            Assert.AreEqual(2, output);
+            Assert.AreEqual(1, output);
         }
 
 
