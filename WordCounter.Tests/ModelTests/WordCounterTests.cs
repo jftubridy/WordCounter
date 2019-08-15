@@ -6,7 +6,7 @@ namespace WordCounter.Tests
 
 {
     [TestClass]
-    public class RepeatCounterTest
+    public class WordCounterTest
     {
         // [TestMethod]
         // public void MethodName_Spec_ExpectedOutput()
@@ -15,10 +15,16 @@ namespace WordCounter.Tests
         //     Assert.AreEqual(ExpectedOutput, instanceName.MethodName(inputHere));
         // }
         [TestMethod]
-        public void Input_HasSpace_True()
+        public void TotalWord_NumOfWord_1()
         {
-            bool isWord = RepeatCounter.IsWord("fat cat");
-            Assert.AreEqual(false, isWord);
+            RepeatCounter newCounter = new RepeatCounter("cat", "cat");
+            int output = newCounter.WordNumber();
+            Assert.AreEqual(1, output);
         }
+
+
+
+
+
     }
 }
