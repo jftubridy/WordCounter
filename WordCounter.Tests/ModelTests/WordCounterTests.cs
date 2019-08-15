@@ -22,6 +22,14 @@ namespace WordCounter.Tests
             Assert.AreEqual(1, output);
         }
 
+        [TestMethod]
+        public void TotalWord_NumOfWOrdInSentence_2()
+        {
+            RepeatCounter newCounter = new RepeatCounter("cat", "cat cat");
+            int output = newCounter.WordNumber();
+            Assert.AreEqual(2, output);
+        }
+
 
 
 
