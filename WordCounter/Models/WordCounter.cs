@@ -15,6 +15,7 @@ namespace WordCounter.Models
             InputWord = inputWord.ToLower();
         }
 
+
         public int WordNumber()
         {
             int totalWords = 0;
@@ -27,16 +28,6 @@ namespace WordCounter.Models
             return totalWords;
         }
 
-        // public static string () 
-        // {
-        //     if (inputWord);
-        // }
 
-        // string[] sentence = inputSentence.Split(signs[] { ' ', ',', '.', ';', ':', '!', '?', '/', '@', '#', '$', '%', '^', '^', '&', '*', '(', ')', '-', '_', '=', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' })
-
-
-        // maybe try --string[] parts1 = input.Replace("][", "-").Split('-');
-
-        // maybe try --  string[] reslts = tests.Split(new char[] { ']', '[' }, StringSplitOptions.RemoveEmptyEntries);
     }
 }

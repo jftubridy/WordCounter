@@ -2,3 +2,10 @@ C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\n
 C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CoreCompileInputs.cache
 C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfoInputs.cache
 C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfo.cs
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.deps.json
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\josep\desktop\coding stuff\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
