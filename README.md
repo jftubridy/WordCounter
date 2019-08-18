@@ -13,8 +13,8 @@ This console program asks for a sentence and input word and will count and then 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Checks if the input word is the same as the input sentence** | "cat", "cat" | returns 1|
-| **Checks for the input word being connected** | "cat", "catcat" | returns 0  |
-| **Checks a sentece that 2 words long** | "cat", "cat hat" | returns 1 |
+| **Checks for the input word being connected to anything else** | "cat", "catcat" | returns 0  |
+| **Checks a sentence that 2 words long** | "cat", "cat hat" | returns 1 |
 | **Checks a sentence that is many words** | "cat", "cat cat hat mat categories cat" | returns 3 |
 
 ## Setup/Installation Requirements
