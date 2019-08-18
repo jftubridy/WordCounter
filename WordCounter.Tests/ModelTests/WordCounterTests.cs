@@ -37,6 +37,14 @@ namespace WordCounter.Tests
             Assert.AreEqual(1, totalWords);
         }
 
+        [TestMethod]
+        public void TotalWord_MultipleCats_3()
+        {
+            RepeatCounter newCounter = new RepeatCounter("cat cat hat mat categories cat", "cat");
+            int totalWords = newCounter.WordNumber();
+            Assert.AreEqual(3, totalWords);
+        }
+
 
 
 
