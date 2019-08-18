@@ -1,26 +1,40 @@
-input = cat:
-input sentence = A catatonic cat can't categorize catheters without education.
-A catatonic(no) cat(yes) can't categorize(no) catheters(no) without education(no).
-count = 1. 
+**Word Counter**
 
-split inputSentence at  {' ', ',', '.', ';', ':', '!', '?', '/', '@', '#', '$', '%', '^', '^', '&', '*', '(', ')', '-', '_', '=', '+', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}
+#### A console program that counts the number of times an input word is in a sentence. 8/18/19
 
-check if any split off words in sentence.ToLower == input word
+#### By **Joseph Tubridy**
 
-check if catatonic = word, it shouldn't
+## Description
+
+This console program asks for a sentence and input word and will count and then tell the user how many times the input word occurs in the sentence. 
 
 
-Before coding, write plain English specs in a text file (or your README). Commit these before writing any code.
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Checks if the input word is the same as the input sentence** | "cat", "cat" | returns 1|
+| **Checks for the input word being connected** | "cat", "catcat" | returns 0  |
+| **Checks a sentece that 2 words long** | "cat", "cat hat" | returns 1 |
+| **Checks a sentence that is many words** | "cat", "cat cat hat mat categories cat" | returns 3 |
 
-Each spec should include a specific input and output and a description sentence explaining why you selected that input value as the simplest way to test the behavior your spec covers.
+## Setup/Installation Requirements
 
-Other Hints
-Create a class called RepeatCounter containing logic for counting how many times a word appears in a string of words.
+1. Clone this repository.
+2. dotnet run in your console.
 
-Using more than one method could make your logic easier to test. For instance, you might have one method to test whether input is valid, and another for searching the string of words.
+## Known Bugs
+* There are no known bugs at this time.
 
-Plain English specs were committed in a text file or README before coding.
-Specs include specific input and output and a descriptive sentence.
-Specs begin with the simplest possible behavior and progress to more complex cases, cover different input values.
-All specs have been written up correctly as test methods.
-All tests are passing, and described functionality is present.
+## Technologies Used
+* C#
+* .NET
+
+## Support and contact details
+
+_Email jftubridy@gmail.com with any questions, comments, or concerns._
+
+### License
+
+*{This software is licensed under the MIT license}*
+
+Copyright (c) 2019 **_Joseph Tubridy_**
